@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Zilla+Slab:ital,wght@0,300;1,300&display=swap');
 * {
     margin : 0;
     padding: 0;
@@ -25,11 +26,14 @@ nav {
         }
     }
 }
-
-h1 {
-    color: crimson;
+h1{
+    font-family: 'Zilla Slab', serif;
 }
 
+p{
+    font-family: 'Parisienne', cursive;
+
+}
 
 .home, .contact{
     transition: .5s;
@@ -52,11 +56,39 @@ header{
     padding: 0.1px;
 }
 
-.title {
+.title, .text, .text_author{
     font-size: 60px;
     //text-align: center;
     margin-top: 200px;
     color: rgb(19, 16, 16);
     float: right;
     margin-right: 100px;
+
 }
+
+.text {
+    font-size: 40px;
+    margin-top: 120px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 50px;
+    margin-left: 150px;
+    color: rgb(19, 16, 16);
+    float: right;
+    margin-right: 100px;
+    border: 1px solid black;
+    padding: 5px 50px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+   
+}
+
+.text_author {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 200px;
+
+}
+
