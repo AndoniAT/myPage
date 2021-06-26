@@ -1,15 +1,14 @@
 const express = require( 'express' );
 const app = express();
 const path = require( 'path' );
+
 // Settings
 app.set( 'port', 3000 );
 app.set( 'views', path.join(__dirname, '..', '/public/views' ) );
 app.set( 'view engine', 'ejs');
 
 // Routes
-app.get( '/', ( req, res ) => {
-    res.render( 'index', { title : 'Andoni WebSite' } );
-});
+app.use(require('../public/routes/index'));
 
 
 // Static files
