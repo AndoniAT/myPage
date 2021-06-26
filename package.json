@@ -1,0 +1,24 @@
+{
+  "name": "mypage",
+  "version": "1.0.0",
+  "description": "If you are interestet to know me, this is the right site!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndoniAT/myPage.git"
+  },
+  "author": "Andoni Alonso Tort",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndoniAT/myPage/issues"
+  },
+  "homepage": "https://github.com/AndoniAT/myPage#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
