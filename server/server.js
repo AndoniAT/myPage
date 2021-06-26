@@ -9,8 +9,9 @@ app.set( 'views', path.join(__dirname, '..', '/public/views' ) );
 app.set( 'view engine', 'ejs');
 
 // Routes
-app.use(require('../public/routes/index'));
-
+app.use( require('../public/routes/index' ) );
+app.use( '/css', express.static(path.join(__dirname, "..", "public/assets/css" ) ) );
+app.use( '/images', express.static(path.join(__dirname, "..", "public/assets/images" ) ) );
 
 // Static files
 
