@@ -130,7 +130,7 @@ article:hover {
     background-color: rgba(233, 233, 233, 0.418)
 }
 
-.mylife, .professional{
+.mylife, .professional, .plans{
     background-color: black;
     background-position: center;
     background-size: cover;
@@ -145,6 +145,11 @@ article:hover {
         url(../images/mylife.JPG);
 }
 
+.plans{
+    background-image: 
+        url(../images/plans.JPG);
+}
+
 .professional{
     background-image: 
         url(../images/professional.JPG);
@@ -155,4 +160,32 @@ article:hover {
         linear-gradient(to top, #d7d6da46 0%, #5e5e5e38 100%), 
         url(../images/mylife.JPG);
         font-size: 1.5rem;
+        color: black;
 } 
+
+.professional:hover {
+    background-color: 
+        linear-gradient(to top, #d7d6da46 0%, #5e5e5e38 100%), 
+        url(../images/mylife.JPG);
+        font-size: 1.5rem;
+        color: black;
+} 
+
+.plans:hover {
+    background-color: 
+        linear-gradient(to top, #d7d6da46 0%, #5e5e5e38 100%), 
+        url(../images/mylife.JPG);
+        font-size: 1.5rem;
+        color: black;
+} 
+
+a {
+    text-decoration: none;
+}
+
+.mySection {
+    display: inline;
+    background-color: rgba(151, 151, 151, 0.486);
+    border: 1px solid black;
+    padding: 5px 15px;
+}
