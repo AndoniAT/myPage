@@ -7,7 +7,7 @@
 
 html{
    background: rgba(82, 82, 99, 0.253);
-    background: linear-gradient(10deg, rgba(94, 94, 97, 0.61) 0%, rgba(101, 101, 141, 0.397) 2%, rgb(139, 158, 192) 61%, rgba(155, 121, 76, 0.473) 99%);    
+    background: linear-gradient(10deg, rgba(94, 94, 97, 0.61) 0%, rgba(101, 101, 141, 0.397) 2%, rgb(213, 222, 238) 61%, rgba(155, 121, 76, 0.473) 99%);    
 }
 
 nav {
@@ -31,7 +31,7 @@ h1{
     font-family: 'Zilla Slab', serif;
 }
 
-p{
+.p_header{
     font-family: 'Parisienne', cursive;
 
 }
@@ -49,7 +49,7 @@ header{
     background-color: black;
     height: 600px;
     background-image: 
-        linear-gradient(to top, #8f7df146 0%, #99a3b338 100%), 
+        linear-gradient(to top, #8b899746 0%, #99a3b338 100%), 
         url(../images/header.JPG);
     background-position: center;
     background-size: cover;
@@ -97,7 +97,7 @@ header{
 .interests{
     //background-color: rgb(0, 0, 0);
     background-image: 
-    linear-gradient(to top, #99a3b338  0%, #8f7df146 100%), 
+    linear-gradient(to top, #99a3b338  0%, #aeabc246 0%), 
         url(../images/interests.JPG);
     background-position: center;
     background-size: cover;
@@ -189,3 +189,32 @@ a {
     border: 1px solid black;
     padding: 5px 15px;
 }
+
+.about {
+    height: 400px;
+    background-color: rgb(235, 235, 235);
+
+        
+    .title_about {
+        font-size: 60px;
+        margin-top: 20px;
+        color: rgb(134, 134, 134);
+        font-family: 'Zilla Slab', serif;
+        margin-left: 100px;
+    }
+    
+    .justify { 
+        text-align: justify;
+    }
+    .text_about {
+        font-family: 'Zilla Slab', serif;
+        margin-left: 100px;
+        width: fit-content;   
+        margin-top: 30px;
+        font-size: 1.2rem;
+        width: 40%;
+    }
+
+
+}
+
