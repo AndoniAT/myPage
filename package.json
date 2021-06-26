@@ -2,11 +2,11 @@
   "name": "mypage",
   "version": "1.0.0",
   "description": "If you are interestet to know me, this is the right site!",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node public/views",
-    "dev": "nodemon public/views"
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
