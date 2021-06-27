@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <%- include( 'partials/head' )%>
     <title><%= title %></title>
+    <link rel="stylesheet" href="/css/contact.css">
 </head>
 <body>
-    <h1><%= title %></h1>
+    <%- include( 'partials/navbar') %>
+    <header class="header">
+        <div class="contact_header">
+            <div class="email">
+                <h2>EMAIL</h2>
+                <p class="email_text">andonialonsotort@gmail.com</p>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/andoni.alonso/" target="_blank">
+                        <img class="icon" src="images/facebook.png" alt="facebook">
+                </a>
+                
+                <a href="https://www.linkedin.com/in/andoni-alonso-tort/" target="_blank">
+                        <img class="icon" src="images/linkedin.png" alt="facebook">
+                </a>
+                
+                <a href="https://www.instagram.com/andonialonsot/" target="_blank">
+                        <img class="icon" src="images/instagram.png" alt="facebook">
+                </a>
+            </div>
+        </div>
+    </header>
 </body>
 </html>

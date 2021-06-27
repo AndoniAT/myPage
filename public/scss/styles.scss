@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Zilla+Slab:ital,wght@0,300;1,300&display=swap');
+
 * {
     margin : 0;
     padding: 0;
@@ -22,8 +23,17 @@ nav {
             a {
                 text-decoration: none;
                 color : black;
+                width: 100%;
             }
         }
     }
 }
 
+.home, .contact{
+    transition: .5s;
+}
+
+.home:hover, .contact:hover{
+    background-color: rgba(110, 108, 105, 0.521);
+    font-size: 1.08rem;
+}
