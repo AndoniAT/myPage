@@ -24,6 +24,9 @@ nav {
                 text-decoration: none;
                 color : black;
                 width: 100%;
+                font-family: 'Zilla Slab', serif;
+                font-size: 1rem;
+                transition: 1s;
             }
         }
     }
@@ -34,6 +37,10 @@ nav {
 }
 
 .home:hover, .contact:hover{
-    background-color: rgba(110, 108, 105, 0.521);
+    background-color: rgba(177, 177, 177, 0.397);
     font-size: 1.08rem;
+    a {
+        font-size: 1.1rem;
+
+    }
 }
